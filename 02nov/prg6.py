@@ -1,0 +1,12 @@
+a=[12,3,50,23,9]
+print(a)
+#a.insert(1,100)
+#a.insert(10,200)
+print(a)
+print(a.count(3))
+a.clear()
+print(a)
+a.append(101)
+a.append(102)
+print(a)
+print(a.index(101))

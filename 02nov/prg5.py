@@ -1,0 +1,10 @@
+a=[12,5,65,23,45]
+print(a)
+a.remove(5)
+print(a)
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+a.reverse()
+print(a)
