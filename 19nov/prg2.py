@@ -1,0 +1,11 @@
+#prg for create a file 
+fp=open("myfile.txt","w")
+print(type(fp))
+print("file name",fp.name)
+print("file mode",fp.mode)
+print("file status",fp.closed)
+data=input("enter data to write in file")
+fp.write(data)
+print("file created")
+fp.close()
+print("file status",fp.closed)

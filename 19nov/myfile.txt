@@ -1,0 +1,1 @@
+python -u "c:\Python workshop\19nov\prg4.py"
