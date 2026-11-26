@@ -1,0 +1,28 @@
+Deepcopy():--it createsba compleatly indipendent copy of the original obj. including all nested element
+            changes made to deep_copied do not affect the original list a.
+
+shallow copy--> a shallow copy creates a new obj. but retains reference to the obj. contained
+                witin the original.it only copies the top level structure without without
+                duolicating nested elements.chnages made to a copy of an obj. in python,
+                this is implemented using the "copy.copy()"function.
+                ==>faster as compare to Deepcopy
+                ==>less memory overhead required
+
+Functions-->user define function:-->
+                                1)-->no return type no argument list
+                                syntax:--> def functionname():
+                                                #write logic here
+                                   function calling
+                                                functionname()             
+                                2)-->no return type with argument list
+                                syntax:--> def functionname(arglist):
+                                                #write logic here
+                                   function calling
+                                                functionname(arglist) 
+                                3)-->with return type no argument list
+                                syntax:--> def functionname():
+                                                #write logic here
+                                                return(value/expression)
+                                   function calling
+                                                functionname() 
+        
