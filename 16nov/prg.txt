@@ -1,0 +1,57 @@
+list comprehension:--
+--> its a short & simple way to create a new list from an existing list.instead of writing a for 
+    loop we can write the entire logic in a single line.
+    syntax:-
+            newlist=[expression for item in iterable if condition]
+
+            1.add() :- to add  a new element in existing set.
+            syntaxsetname. add(newdata)
+
+            2. pop() :- not preferable in case of set
+            beacause set is unordered so ehich element is pop we never know.
+            syntax setname . pop()
+
+            3.  remove():- 
+
+            4. discard();- remove the specified element from existing set if element is not found this
+            foncation will not generate an excepton.
+            syntax
+            setname.discard(value)
+
+            5. difference():-- difference function show the unique element of first
+             specified set(base set)
+            exp. 
+              s3=s1.difference(s2)
+              or
+              exp. s3=s1-s2
+
+            6.--> intersection():- intersection function showanthe common 
+            element of both specified set
+            exp. s3=s1.intersection(s2)
+            or
+            exp.
+            s3=s1 & s2
+
+            7.-- union()-->combine 2 set element and store in 3rd set but duplicate element
+                      add one time.
+                ex.-- s3=s1.union(s2)
+                   or
+                   exp.  s3=s1 |s2
+                   \
+dictionary--
+            it is collection of siilar+different-different data types values
+            -->it store data in key +value pair format
+            -->key data types can be integer or string
+            -->its belongs to w4rapper class<class:dict>
+            -->dictionary is orsdered collection of element.
+            -->its mutable or changeable in nature
+            syntax-->
+                    ref_var_name={"key1":value,"key2":value....}
+
+        double quotes use only in case of string datatypes.
+    ==========================================================================================
+
+  copy():--returns a shollow copy of original dictionary.if changes in old dictionary,
+            new/copy dictionary will not affect by this.
+        syntax--
+                

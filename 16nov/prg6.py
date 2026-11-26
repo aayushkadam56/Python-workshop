@@ -1,0 +1,11 @@
+s1={11,4,67,8,9}
+print(s1)
+s1.add(100)
+print(s1)
+#s1.pop()
+#s1.remove(8)
+#s1.remove(90)
+s1.discard(90)
+print(s1)
+s1.clear(s1)
+print(s1)
