@@ -1,0 +1,16 @@
+import time
+
+s=time.time()
+#print("second-",s)
+#print("localtime-",time.localtime(s))
+#print(time.gmtime(s))
+#print(time.ctime(s))
+#x=time.strftime("%Y")
+#x=time.strftime("%A")
+#x=time.strftime("%m")
+#x=time.strftime("%y")
+#x=time.strftime("%b")
+#x=time.strftime("%B")
+x=time.strftime("%d-%m-%y %H:%M:%S")
+print(time.strftime("%j"))
+print(x)

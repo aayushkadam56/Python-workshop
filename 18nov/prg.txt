@@ -1,0 +1,20 @@
+module in python-
+            a module is simply a pyhton file containing python code.inside
+            module ifle we can define functions ,class and variables that can be used in other pythin programes
+            .modukle file name extinsion os pyhton
+
+            this mode file is acces on other file using
+            1-import keyword
+            2-as keyword for renameing a modukle
+            3-from keyword
+
+            when we create a module file amd call it in prg. it will genereate a folder __pycache__
+            inside this folder al,the module file is store.
+
+            types of modules
+            1.custome module/user defined modules
+              amodele which is design as per our programe needs called user defined modules
+
+            2.predifined/built-in/system define module a module whicch is already avilable in python library called
+              module.
+              ex--copy,sys,math,keyword,os,date ,etc
