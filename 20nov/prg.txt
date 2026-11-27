@@ -1,0 +1,27 @@
+exception handling--
+                    error and exception can lead to program faiure or unexpected
+                     behavoir,here python comes a set of tools to manage exception.
+                    both error an dexceotion occurs during the executin of progrsm..
+
+        we can hanfdle;
+
+        try:-inside the try block we can write any statement or buisness logic.
+        except:--if the code contain any exception than else block will be executed.
+
+        finally:--this block executes the  code always
+
+        syntax 
+        try: 
+        #statement or logic
+        except <exception name>
+
+        Types of Exception class
+        -------------------------
+        1):= ZeroDivisionError:- this exception is a occurse when  any no. is divided by zero.
+        2):--nameError:-this exception is occur when reference/variable is undefined.
+        3):--indexError:--this exception is occurs when index is out of range.
+        4):--keyError:--this exception is occurs when index/key is not available in given collection.
+        5):--FileNotFound:-when fle does not exist in the specified path this exception is occurs.
+        6):--attributeError:--when call function that is not avilable in collection(like list/tuple/set/dictionary)
+        7):--valueError:--when specified values is not available in given collecton.exp.  list1.remove(value)
+                error occurs at compile time and exception occurs at run time.1
