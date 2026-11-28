@@ -1,0 +1,12 @@
+1. bastract class and class difference
+2. object and class
+3. data abstracton and encapsulation
+4. function overloading -@dispatch
+5. abc,ABC,abstractmethod
+6. _init_(),_del_()
+============================================================================================================================
+                                                HTML
+    (hyper text markup language)--
+    it is a desinging language used for design web pages.it is an error free language .
+    html page runs on any browser.html is easily integraed with any prg. languages(java,python,dotnet,etc).
+    
